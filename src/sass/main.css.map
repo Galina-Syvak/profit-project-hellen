@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;ACHH,AAAA,KAAK,CAAC;EACJ,iDAAiD;EACjD,cAAc,CAAA,QAAC;EAEf,eAAe,CAAA,QAAC;EAChB,oBAAoB,CAAA,QAAC;EACrB,gBAAgB,CAAA,KAAC;EACjB,iBAAiB,CAAA,QAAC;EAElB,gBAAgB,CAAA,QAAC;EACjB,qBAAqB,CAAA,KAAC;EACtB,iBAAiB,CAAA,QAAC;EAClB,kBAAkB,CAAA,QAAC;EAEnB,4CAA4C;EAC5C,gBAAgB,CAAA,aAAC;EACjB,kBAAkB,CAAA,WAAC;EAEnB,8CAA8C;EAC9C,OAAO,CAAA,OAAC;EACR,eAAe,CAAA,6BAAC;CACjB;;ACrBD,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wBAAwB;CACtC;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,gBAAgB,CAAC;EACf,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EAEV,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,WAAW;EACtB,IAAI,EAAE,aAAa;EACnB,QAAQ,EAAE,MAAM;CACjB;;AAED,8BAA8B;ACzC9B,oGAAoG",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "utils/_utilits.scss",
+        "utils/_mixins.scss",
+        "components/_page-header.scss",
+        "components/_section-hero.scss",
+        "components/_section-advantages.scss",
+        "components/_section-problems.scss",
+        "components/_section-how-we-do.scss",
+        "components/_section-program.scss",
+        "components/_section-benefits.scss",
+        "components/_section-about.scss",
+        "components/_section-guarantee.scss",
+        "components/_section-reviews.scss",
+        "components/_section-contacts.scss",
+        "components/_page-footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
