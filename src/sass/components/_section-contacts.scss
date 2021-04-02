@@ -121,9 +121,18 @@
         }
     }
 
+    &__input:focus-within {
+        border: 1px solid var(--accent-color);
+    }
+
     &__input::placeholder {
         font-style: inherit;
         color: var(--secondary-txt-color);
+    }
+
+    &__input:invalid {
+        border: 4px solid #d81313;
+        border-radius: 2px;
     }
 
     &__submit {
