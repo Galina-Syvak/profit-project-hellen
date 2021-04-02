@@ -29,11 +29,9 @@
     font-weight: 800;
     letter-spacing: 0.03em;
     color: var(--secondary-bg-color);
-    @media screen and (max-width: 1279px) {
-        font-size: 26px;
-        line-height: 34px;
-        margin-bottom: 30px;
-    }
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
     @media screen and (min-width: 1280px) {
         font-size: 46px;
         line-height: 60px;
@@ -42,9 +40,7 @@
 }
 .guarantee__list {
     background-color: var(--fourth-bg-color);
-    @media screen and (max-width: 767px) {
-        padding: 30px 20px 30px 20px;
-    }
+    padding: 30px 20px 30px 20px;
     @media screen and (min-width: 768px) and (max-width: 1279px) {
         padding: 30px 50px 30px 86px;
     }
@@ -55,13 +51,11 @@
 .guarantee__item {
     position: relative;
     padding-bottom: 20px;
+    padding-left: 28px;
     border-left: 1px dashed var(--third-txt-color);
     &:last-child {
         border: none;
         padding-bottom: 0;
-    }
-    @media screen and (max-width: 767px) {
-        padding-left: 28px;
     }
     @media screen and (min-width: 768px) and (max-width: 1279px) {
         padding-left: 32px;
@@ -76,11 +70,9 @@
     font-style: normal;
     font-weight: 500;
     color: var(--fourth-txt-color);
-    @media screen and (max-width: 1279px) {
-        max-width: 550px;
-        font-size: 12px;
-        line-height: 20px;
-    }
+    max-width: 550px;
+    font-size: 12px;
+    line-height: 20px;
     @media screen and (min-width: 1280px) {
         max-width: 1080px;
         font-size: 20px;
@@ -93,11 +85,9 @@
         display: inline-block;
         background-image: url('../images/guarantee/fire.svg');
         background-size: contain;
-        @media screen and (max-width: 1279px) {
-            left: -7px;
-            width: 14px;
-            height: 20px;
-        }
+        left: -7px;
+        width: 14px;
+        height: 20px;
         @media screen and (min-width: 1280px) {
             left: -11px;
             width: 22px;
