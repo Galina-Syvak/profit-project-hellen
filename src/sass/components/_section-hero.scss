@@ -54,14 +54,8 @@
   }
 }
 
-.section-hero__title--wrap {
-  @media screen and(max-width:767px) {
-    display: none;
-  }
-}
-
-.section-hero__title--nowrap {
-  @media screen and(min-width:768px) {
+.section-hero__title-breakpoint--show {
+  @media (max-width: 767px) {
     display: none;
   }
 }
@@ -95,9 +89,10 @@
   color: var(--accent-color);
 }
 
-.section-hero__pre-title-text--nowrap {
-  display: inline-flex;
-  flex-wrap: nowrap;
+.section-hero__pre-title-breakpoint--wrap {
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
 
 .section-hero__callback-link {
