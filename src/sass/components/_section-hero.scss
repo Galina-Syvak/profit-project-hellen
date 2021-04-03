@@ -133,6 +133,7 @@
 
   color: var(--secondary-txt-color);
   background-color: var(--accent-color);
+  transition: background-color var(--delay) var(--time-function);
 
   @media screen and (min-width: 768px) {
     margin-left: 0;
@@ -144,6 +145,11 @@
     font-size: 14px;
     line-height: 1, 214;
     letter-spacing: 0.14em;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-hovered);
   }
 }
 
