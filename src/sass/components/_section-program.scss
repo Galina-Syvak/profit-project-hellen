@@ -1,0 +1,65 @@
+.section-program__container {
+  position: relative;
+}
+
+.section-program__title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-txt-color);
+
+  margin-bottom: 50px;
+}
+
+.section-program__auxiliary-element {
+  display: flex;
+  margin-left: 74px;
+}
+
+.section-program__border {
+  height: 1292px;
+  width: 25px;
+  border-left: 1px solid var(--secondary-txt-color);
+}
+
+.section-program__list {
+}
+
+.section-program__semester {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--secondary-txt-color);
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+.section-program__aspect {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.666;
+  text-transform: none;
+  color: var(--accent-color);
+}
+
+.section-program__topic {
+  font-weight: 500;
+  color: var(--third-txt-color);
+  opacity: 0.5;
+}
+
+.section-program__bg-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 760px;
+  height: 502px;
+  background-image: url('../images/program/program.png');
+  background-size: cover;
+}
