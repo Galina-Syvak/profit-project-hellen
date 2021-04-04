@@ -5,11 +5,11 @@
 
   --main-bg-color: #e5e5e5;
   --secondary-bg-color: #111518;
-  --third-bg-color: #fff;
+  --third-bg-color: #ffffff;
   --fourth-bg-color: #f1f1f1;
 
   --main-txt-color: #111518;
-  --secondary-txt-color: #fff;
+  --secondary-txt-color: #ffffff;
   --third-txt-color: #b9b9b9;
   --fourth-txt-color: #3d3d3d;
 
@@ -20,4 +20,11 @@
   /* Параметры для использования трансфомации */
   --delay: 1500ms;
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Динамічні змінні для @media */
+  --mobile: 320px;
+  --tablet_-1: 767px;
+  --tablet: 768px;
+  --desktop_-1: 1679px;
+  --desktop: 1680px;
 }
