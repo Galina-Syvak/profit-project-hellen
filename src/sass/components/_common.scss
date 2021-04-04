@@ -26,7 +26,9 @@
 
 /* Логотип*/
 .logo {
-  color: var(--accent-color);
+  // color: var(--accent-color);
+
+  animation: color-change 5s infinite;
   transition: color var(--delay) var(--time-function);
 
   &:hover,
@@ -78,7 +80,7 @@
   }
 }
 
-.logo-tablet__name-en--uppercase {
+.logo-tablet-name-en--uppercase {
   text-transform: uppercase;
 }
 
@@ -99,4 +101,25 @@
 .logo-mobile__icon,
 .logo-tablet__icon {
   fill: currentColor;
+}
+
+@keyframes color-change {
+  0% {
+    color: rgba(255, 136, 0, 0.945);
+  }
+  20% {
+    color: rgba(255, 136, 0, 0.952);
+  }
+  40% {
+    color: rgba(255, 81, 0, 0.904);
+  }
+  60% {
+    color: var(--accent-color);
+  }
+  80% {
+    color: rgba(255, 81, 0, 0.904);
+  }
+  100% {
+    color: rgba(255, 136, 0, 0.952);
+  }
 }
