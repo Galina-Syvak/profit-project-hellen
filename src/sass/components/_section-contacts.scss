@@ -1,17 +1,19 @@
 .contacts {
     height: 507px;
     background-image: linear-gradient(rgba(17, 21, 24, 0.8), rgba(17, 21, 24, 0.8)),
-        url(../images/contacts-background/contacts-bckgnd-tab-1x.jpg);
+        url(../images/contacts-background/contacts-bckgnd-mob-1x.jpg);
     background-repeat: no-repeat;
-    background-position: 70% 0%;
+    background-position: 80% 0%;
     background-size: cover;
     background-color: var(--secondary-bg-color);
 
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
         screen and (min-resolution: 192dpi) and (min-width: 320px),
         screen and (min-resolution: 2dppx) and (min-width: 320px) {
+        height: 507px;
         background-image: linear-gradient(rgba(17, 21, 24, 0.8), rgba(17, 21, 24, 0.8)),
-        url(../images/contacts-background/contacts-bckgnd-tab-2x.jpg);
+        url(../images/contacts-background/contacts-bckgnd-mob-2x.jpg);
+        background-position: 80% 0%;
     }
 
     @media screen and (min-width: 768px) {
