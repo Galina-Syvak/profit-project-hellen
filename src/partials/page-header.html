@@ -1,44 +1,63 @@
 <header class="page-header">
-  <a class="logo" href="/index.html">
-    <div>
-      <span class="logo__name-en">Hell</span>
-      <svg class="logo__icon" width="22" height="30" aria-label="иконка в логотипе">
-        <use href="/images/logo/logo-icon.svg#logo-icon" aria-label="logo-icon"></use>
-      </svg>
-      <span class="logo__name-en">En</span>
+  <div class="container page-header__container">
+    <div class="thumb page-header__thumb">
+      <a class="logo" href="/index.html">
+        <div class="logo-mobile">
+          <svg class="logo-mobile__icon" width="80" height="29">
+            <use
+              class="logo-mobile__icon-black page-header__icon-black page-header__icon-black--disable"
+              href="/images/logo/mobile-logos.svg#black"
+            ></use>
+            <use
+              class="logo-mobile__icon-white page-header__icon-white page-header__icon-white--disable"
+              href="/images/logo/mobile-logos.svg#white"
+            ></use>
+          </svg>
+        </div>
+        <div class="logo-tablet">
+          <div class="logo-tablet__group logo-tablet__group--top">
+            <span class="logo-tablet__name-en">Hell</span>
+            <svg class="logo-tablet__icon" width="22" height="30" aria-label="иконка в логотипе">
+              <use href="/images/logo/logo-icon.svg#logo-icon" aria-label="logo-icon"></use>
+            </svg>
+            <span class="logo-tablet__name-en logo-tablet-name-en--uppercase">En</span>
+          </div>
+          <div class="logo-tablet__group">
+            <span class="logo-tablet__name-ru logo-tablet__name-ru--accent-color">Адский</span
+            ><span class="logo-tablet__name-ru">Английский</span>
+          </div>
+        </div>
+      </a>
+
+      <nav class="navigation page-header__navigation">
+        <ul class="page-header__navigation-list">
+          <li class="page-header__navigation-item">
+            <a href="" class="page-header__navigation-link">Программы обучения</a>
+          </li>
+          <li class="page-header__navigation-item">
+            <a href="" class="page-header__navigation-link">О нас</a>
+          </li>
+          <li class="page-header__navigation-item">
+            <a href="" class="page-header__navigation-link">Варианты обучения</a>
+          </li>
+          <li class="page-header__navigation-item">
+            <a href="" class="page-header__navigation-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="" class="page-header__callback-link">Консультация по телефону</a>
+
+      <button class="page-header__menu-button js-open-menu">
+        <svg
+          class="page-header__menu-button-icon"
+          width="21"
+          height="12"
+          aria-label="кнопка открытия меню навигации"
+        >
+          <use href="/images/page-header/icons.svg#icon-open"></use>
+        </svg>
+      </button>
     </div>
-    <div>
-      <span class="logo__name-ru">Адский </span><span class="logo__name-ru">Английский</span>
-    </div>
-  </a>
-
-  <nav class="navigation page-header__navigation">
-    <ul class="page-header__navigation-list">
-      <li class="page-header__navigation-item">
-        <a href="" class="page-header__navigation-link">Программы обучения</a>
-      </li>
-      <li class="page-header__navigation-item">
-        <a href="" class="page-header__navigation-link">О нас</a>
-      </li>
-      <li class="page-header__navigation-item">
-        <a href="" class="page-header__navigation-link">Варианты обучения</a>
-      </li>
-      <li class="page-header__navigation-item">
-        <a href="" class="page-header__navigation-link">Контакты</a>
-      </li>
-    </ul>
-  </nav>
-
-  <a href="" class="page-header__callback-link">Консультация по телефону</a>
-
-  <button class="page-header__menu-button">
-    <svg
-      class="page-header__menu-button-icon"
-      width="21"
-      height="12"
-      aria-label="кнопка открытия меню навигации"
-    >
-      <use href="/images/page-header/icons.svg#icon-open"></use>
-    </svg>
-  </button>
+  </div>
 </header>
