@@ -4,6 +4,10 @@
   padding: 0 20px;
   min-width: 320px;
 
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
   @media screen and (min-width: 768px) {
     padding: 0 40px;
     width: 768px;
@@ -18,11 +22,11 @@
 // header {
 //   padding: 30px 0;
 
-//   @media screen and (min-width: var(--tablet)) {
+//   @media screen and (min-width: 768px) {
 //     padding: 40px 0;
 //   }
 
-//   @media screen and (min-width: var(--desktop)) {
+//   @media screen and (min-width: 1280px) {
 //     padding: 33px 0;
 //   }
 // }
@@ -31,19 +35,18 @@
   background-color: var(--third-bg-color);
   padding: 50px 0;
 
-  @media screen and (min-width: var(--desktop)) {
+  @media screen and (min-width: 1280px) {
     padding: 130px 0;
   }
-
 
   &--hero {
     padding: 20px 0 30px;
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-top: 30px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding-top: 13px;
       padding-bottom: 7px;
     }
@@ -52,11 +55,11 @@
   &--advantages {
     padding-top: 0px;
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-top: 50px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding-top: 100px;
     }
   }
@@ -65,11 +68,11 @@
     background-color: var(--secondary-bg-color);
     padding-bottom: 0px;
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-top: 60px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding-top: 100px;
     }
   }
@@ -78,32 +81,32 @@
     background-color: var(--secondary-bg-color);
     // padding-bottom: 668px;
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-top: 60px;
-      padding-bottom: 424px;
+      // padding-bottom: 424px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding-top: 120px;
-      padding-bottom: 258px;
+      // padding-bottom: 258px;
     }
   }
 
   &--benefits {
     padding: 20px 0;
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-top: 30px;
       padding-bottom: 25px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding: 70px 0;
     }
   }
 
   &--about {
-    @media screen and (max-width: var(--tablet_-1)) {
+    @media screen and (max-width: 767px) {
       padding-top: 39px;
     }
   }
@@ -119,11 +122,11 @@
   &--contacts {
     background-color: var(--secondary-bg-color);
 
-    @media screen and (min-width: var(--tablet)) {
+    @media screen and (min-width: 768px) {
       padding-bottom: 71px;
     }
 
-    @media screen and (min-width: var(--desktop)) {
+    @media screen and (min-width: 1280px) {
       padding-top: 100px;
       padding-bottom: 62px;
     }
@@ -233,11 +236,11 @@
 // footer {
 //   padding: 30px 0 21px;
 
-//   @media screen and (min-width: var(--tablet)) {
+//   @media screen and (min-width: 768px) {
 //     padding-top: 40px;
 //   }
 
-//   @media screen and (min-width: var(--desktop)) {
+//   @media screen and (min-width: 1280px) {
 //     padding-top: 52px;
 //   }
 // }

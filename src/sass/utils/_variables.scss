@@ -26,9 +26,11 @@
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Динамічні змінні для @media */
-  --mobile: 320px;
-  --tablet_-1: 767px;
-  --tablet: 768px;
-  --desktop_-1: 1279px;
-  --desktop: 1280px;
+  // Чомусь не працюють. Не  використовуйте зараз їх.
+  // Для коректної роботи пишіть значення цифрами.
+  // --mobile: 320px;
+  // --tablet_-1: 767px;
+  // --tablet: 768px;
+  // --desktop_-1: 1279px;
+  // --desktop: 1280px;
 }
