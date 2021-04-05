@@ -22,6 +22,7 @@
         line-height: 60px;
     }
 }
+
 .reviews__wrapper-list {
     padding: 20px 20px 30px 20px;
     margin-top: 20px;
@@ -43,16 +44,11 @@
     position: relative;
 }
 .reviews__item {
+    position: absolute;
+    opacity: 0;
     @media screen and (min-width: 768px) {
         display: flex;
     }
-}
-.reviews__item.is-close {
-    position: absolute;
-    opacity: 0;
-}
-.reviews__item.is-open {
-    opacity: 1;
 }
 .reviews__wrapper-img {
     margin: 0 auto;
