@@ -1,48 +1,48 @@
 .reviews {
-    text-align: center;
+  text-align: center;
 }
-.reviews .container{
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    @media screen and (min-width: 1280px) {
-        padding-top: 130px;
-        padding-bottom: 130px;
-    }
+
+.reviews .container {
+  position: relative;
 }
+
 .reviews__title {
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    color: var(--secondary-bg-color);
-    font-size: 26px;
-    line-height: 34px;
-    @media screen and (min-width: 1280px) {
-        font-size: 46px;
-        line-height: 60px;
-    }
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: var(--secondary-bg-color);
+  font-size: 26px;
+  line-height: 34px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 46px;
+    line-height: 60px;
+  }
 }
 
 .reviews__wrapper-list {
-    padding: 20px 20px 30px 20px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--third-bg-color);
-    @media screen and (min-width: 768px) {
-        max-width: 688px;
-        padding: 40px 40px 40px 40px;
-        margin-top: 30px;
-    }
-    @media screen and (min-width: 1280px) {
-        max-width: 1090px;
-        padding: 50px 112px 50px 82px;
-        margin-top: 50px;
-    }
+  padding: 20px 20px 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--third-bg-color);
+
+  @media screen and (min-width: 768px) {
+    max-width: 688px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1090px;
+    padding: 50px 112px 50px 82px;
+    margin-top: 50px;
+  }
 }
 .reviews__list {
-    position: relative;
+  position: relative;
 }
+
 .reviews__item {
     position: absolute;
     opacity: 0;
@@ -50,168 +50,169 @@
         display: flex;
     }
 }
+
 .reviews__wrapper-img {
-    margin: 0 auto;
-    width: 150px;
-    @media screen and (min-width: 768px) {
-        margin-right: 46px;
-    }
+  margin: 0 auto;
+  width: 150px;
+  @media screen and (min-width: 768px) {
+    margin-right: 46px;
+  }
 }
 .reviews__img {
-    width: 100%;
+  width: 100%;
 }
 .reviews__link {
-    display: block;
-    cursor: pointer;
-    margin-top: 26px;
+  display: block;
+  cursor: pointer;
+  margin-top: 26px;
 }
 .reviews__svg {
-    width: 30px;
-    height: 16px;
+  width: 30px;
+  height: 16px;
 }
 .reviews__wrapper-text {
-    width: 100%;
-    @media screen and (max-width: 767px) {
-        margin-top: 26px;
-    }
+  width: 100%;
+  @media screen and (max-width: 767px) {
+    margin-top: 26px;
+  }
 }
 .reviews__card-title {
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.08em;
-    color: var(--accent-color);
-    @media screen and (min-width: 768px) {
-        text-align: left;
-        font-size: 20px;
-        line-height: 24px;
-    }
-    @media screen and (min-width: 1279px) {
-        font-size: 30px;
-        line-height: 37px;
-    }
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.08em;
+  color: var(--accent-color);
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  @media screen and (min-width: 1279px) {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 .reviews__info {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.08em;
+  color: var(--third-txt-color);
+  @media screen and (min-width: 768px) {
+    max-width: 412px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  @media screen and (min-width: 1279px) {
+    max-width: 438px;
     margin-top: 10px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.08em;
-    color: var(--third-txt-color);
-    @media screen and (min-width: 768px) {
-        max-width: 412px;
-        margin-top: 20px;
-        text-align: left;
-    }
-    @media screen and (min-width: 1279px) {
-        max-width: 438px;
-        margin-top: 10px;
-        font-size: 14px;
-        line-height: 17px;
-    }
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 .reviews__text {
-    margin-top: 10px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
-    color: var(--fourth-txt-color);
-    @media screen and (min-width: 768px) {
-        max-width: 412px;
-        margin-top: 20px;
-        text-align: left;
-    }
-    @media screen and (min-width: 1279px) {
-        max-width: 706px;
-        font-size: 18px;
-        line-height: 28px;
-    }
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--fourth-txt-color);
+  @media screen and (min-width: 768px) {
+    max-width: 412px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  @media screen and (min-width: 1279px) {
+    max-width: 706px;
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 .reviews__text-link {
-    color: var(--accent-color);
-    text-decoration: underline;
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 .preview {
-    position: relative;
-    margin-top: 20px;
-    @media screen and (max-width: 767px) {
-        margin: 0 auto;
-        width: 200px;
-        height: 58px;
-        overflow: hidden;
-    }
-    @media screen and (min-width: 768px) {
-        margin-top: 30px;
-    }
-    @media screen and (min-width: 1279px) {
-        margin-top: 40px;
-    }
-} 
-.preview__list {
+  position: relative;
+  margin-top: 20px;
+  @media screen and (max-width: 767px) {
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    width: 200px;
+    height: 58px;
+    overflow: hidden;
+  }
+  @media screen and (min-width: 768px) {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 1279px) {
+    margin-top: 40px;
+  }
+}
+.preview__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .preview__item {
-    margin-right: 10px;
-    @media screen and (min-width: 768px) {
-        margin-right: 30px;
-    }
-    &:last-child {
-        margin-right: 0;
-    }
+  margin-right: 10px;
+  @media screen and (min-width: 768px) {
+    margin-right: 30px;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .preview__wrapper {
-    display: inline-block;
-    width: 54px;
-    height: 54px;
+  display: inline-block;
+  width: 54px;
+  height: 54px;
 }
 .preview__img {
-    cursor: pointer;
-    width: 54px;
-    &:hover {
-        border-radius: 50%;
-        border: 1px solid var(--accent-color);
-    }
-    &--curentlinck {
-        border-radius: 50%;
-        border: 1px solid var(--accent-color);
-    }
+  cursor: pointer;
+  width: 54px;
+  &:hover {
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
+  }
+  &--curentlinck {
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
+  }
 }
 .reviews__btn-left,
 .reviews__btn-right {
-    position: absolute;
-    display: block;
-    width: 25px;
-    height: 15px;
-    bottom: 70px;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    @media screen and (min-width: 768px) {
-        bottom: 50%;
-    }
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 15px;
+  bottom: 70px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  @media screen and (min-width: 768px) {
+    bottom: 50%;
+  }
 }
 .reviews__btn-left {
-    left: 13px;
-    @media screen and (min-width: 768px) {
-        left: 20px;
-    }
-    @media screen and (min-width: 1279px) {
-        left: 35px;
-    }
+  left: 13px;
+  @media screen and (min-width: 768px) {
+    left: 20px;
+  }
+  @media screen and (min-width: 1279px) {
+    left: 35px;
+  }
 }
 .reviews__btn-right {
-    right: 26px;
-    @media screen and (min-width: 768px) {
-        right: 30px;
-    }
-    @media screen and (min-width: 1279px) {
-        right: 45px;
-    }
+  right: 26px;
+  @media screen and (min-width: 768px) {
+    right: 30px;
+  }
+  @media screen and (min-width: 1279px) {
+    right: 45px;
+  }
 }
 .reviews__btn-svg {
-    display: block;
-    width: 25px;
-    height: 15px;
+  display: block;
+  width: 25px;
+  height: 15px;
 }
