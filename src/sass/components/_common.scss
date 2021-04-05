@@ -17,6 +17,10 @@
     padding: 0 60px;
     width: 1280px;
   }
+
+  @media screen and (min-width: 1680px) {
+    width: 1434px;
+  }
 }
 
 // header {
@@ -230,6 +234,37 @@
   }
   100% {
     color: rgba(255, 136, 0, 0.952);
+  }
+}
+
+.wave-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100vw;
+  min-height: 665px;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    min-height: 605px;
+  }
+  @media screen and (min-width: 1280px) {
+    min-height: 925px;
+  }
+
+  background-image: url('/images/hero/bg-img-wave-768x618.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  @media screen and (min-width: 768px) {
+    background-image: url('/images/hero/bg-img-wave-768x556.svg');
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url('/images/hero/bg-img-wave-1688x878.svg');
   }
 }
 
