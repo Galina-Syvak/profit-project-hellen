@@ -46,6 +46,9 @@
   text-align: center;
   box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
 
+  transition: color var(--delay) var(--time-function),
+    background-color var(--delay) var(--time-function);
+
   &:hover,
   &:focus {
     color: var(--secondary-txt-color);
@@ -127,6 +130,8 @@
   letter-spacing: 0.08em;
 
   color: var(--third-txt-color);
+
+  transition: color var(--delay) var(--time-function);
 }
 
 .how-we-do__text::before {
@@ -141,6 +146,8 @@
   height: 4px;
 
   background-color: var(--accent-color);
+
+  transition: background-color var(--delay) var(--time-function);
 }
 
 .how-we-do__item:hover ::before,
