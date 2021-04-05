@@ -22,11 +22,11 @@
 // header {
 //   padding: 30px 0;
 
-//   @media screen and (min-width: var(--tablet)) {
+//   @media screen and (min-width: 768px) {
 //     padding: 40px 0;
 //   }
 
-//   @media screen and (min-width: var(--desktop)) {
+//   @media screen and (min-width: 1280px) {
 //     padding: 33px 0;
 //   }
 // }
@@ -83,12 +83,12 @@
 
     @media screen and (min-width: 768px) {
       padding-top: 60px;
-      padding-bottom: 424px;
+      // padding-bottom: 424px;
     }
 
     @media screen and (min-width: 1280px) {
       padding-top: 120px;
-      padding-bottom: 258px;
+      // padding-bottom: 258px;
     }
   }
 
@@ -236,11 +236,11 @@
 // footer {
 //   padding: 30px 0 21px;
 
-//   @media screen and (min-width: var(--tablet)) {
+//   @media screen and (min-width: 768px) {
 //     padding-top: 40px;
 //   }
 
-//   @media screen and (min-width: var(--desktop)) {
+//   @media screen and (min-width: 1280px) {
 //     padding-top: 52px;
 //   }
 // }
