@@ -4,14 +4,14 @@
   padding: 0 20px;
   min-width: 320px;
 
-  @media screen and (min-width: var(--tablet)) {
+  @media screen and (min-width: 768px) {
     padding: 0 40px;
-    width: var(--tablet);
+    width: 768px;
   }
 
-  @media screen and (min-width: var(--desktop)) {
-    padding: 0 183px;
-    width: var(--desktop);
+  @media screen and (min-width: 1280px) {
+    padding: 0 20px;
+    width: 1280px;
   }
 }
 
@@ -130,7 +130,6 @@
   }
 }
 
-
 /* Логотип*/
 .logo {
   // color: var(--accent-color);
@@ -242,4 +241,3 @@
 //     padding-top: 52px;
 //   }
 // }
-
