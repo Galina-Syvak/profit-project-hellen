@@ -1,5 +1,14 @@
 .guarantee {
   text-align: center;
+
+  @media screen and (max-width: 767px) {
+    background-image: linear-gradient(
+      to bottom,
+      var(--third-bg-color) 25%,
+      var(--fourth-bg-color) 25%,
+      var(--fourth-bg-color) 75%
+    );
+  }
 }
 
 .guarantee__title {
