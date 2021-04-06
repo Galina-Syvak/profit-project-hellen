@@ -71,20 +71,23 @@
   }
 
   &--problems {
+    padding-bottom: 50px;
+
     @media screen and (min-width: 768px) {
       padding-top: 60px;
     }
 
     @media screen and (min-width: 1280px) {
       padding-top: 100px;
+      padding-bottom: 130px;
     }
   }
 
   &--how-we-do {
+    padding-top: 0;
     padding-bottom: 50px;
 
     @media screen and (min-width: 1280px) {
-      padding-top: 130px;
       padding-bottom: 130px;
     }
   }
@@ -104,9 +107,12 @@
     }
   }
 
-  &--about {
+  &--benefits {
+    padding-top: 0;
+    padding-bottom: 50px;
+
     @media screen and (max-width: 767px) {
-      padding-top: 39px;
+      padding-bottom: 39px;
     }
   }
 
