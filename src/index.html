@@ -25,7 +25,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
   </head>
   <body>
     <div class="wave-thumb"></div>
@@ -48,7 +47,7 @@
     <include src="./partials/page-footer.html"></include>
     <include src="./partials/mobile-menu.html"></include>
 
-    <script>
+    <!-- <script>
       var masPreview = document.getElementsByClassName('preview__item');
       var masReviews = document.getElementsByClassName('reviews__item');
       var zz = 5;
@@ -103,6 +102,18 @@
           }
         }
       }
+    </script> -->
+
+    <script>
+      document.getElementById('page-header__sign-button').onclick = function () {
+        alert('Модальное окно - оно как суслик, вы его не видите, а оно есть!!');
+      };
+    </script>
+
+    <script>
+      document.getElementById('mobile-menu__sign-button').onclick = function () {
+        alert('Модальное окно - оно как суслик, вы его не видите, а оно есть!!');
+      };
     </script>
 
     <script
