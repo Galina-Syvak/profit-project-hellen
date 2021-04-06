@@ -86,57 +86,6 @@
     }
 }
 
-.shield-mobile {
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
-}
-
-.shield {
-    @media screen and (min-width: 768px) {
-        .shield__name-accent {
-            color: var(--accent-color);
-        }
-    }
-    
-    @media screen and (max-width: 767px) {
-        display: none;
-    }
-}
-
-.shield__name {
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-}
-
-.shield__name-en {
-    font-family: var(--main-font-name);
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 1.23;
-    letter-spacing: 0.04em;
-    color: var(--secondary-bg-color);
-}
-
-.shield__icon {
-    fill: var(--accent-color);
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-}
-
-.shield__name-ru {
-    font-family: var(--main-font-name);
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 1.25;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--secondary-bg-color);
-}
-
 .copyright {
     background-color: var(--secondary-bg-color);
 }
