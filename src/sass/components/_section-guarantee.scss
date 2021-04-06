@@ -4,8 +4,9 @@
   @media screen and (max-width: 767px) {
     background-image: linear-gradient(
       to bottom,
-      var(--third-bg-color) 25%,
-      var(--fourth-bg-color) 25%,
+      var(--third-bg-color) 20%,
+      var(--fourth-bg-color) 5%,
+      var(--fourth-bg-color) 20%,
       var(--fourth-bg-color) 75%
     );
   }
@@ -26,10 +27,11 @@
   }
 }
 .guarantee__list {
-  background-color: var(--fourth-bg-color);
+  // background-color: var(--fourth-bg-color);
   padding: 30px 20px;
 
   @media screen and (min-width: 768px) {
+    background-color: var(--fourth-bg-color);
     padding-left: 50px;
     padding-right: 86px;
   }
