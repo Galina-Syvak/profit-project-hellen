@@ -1,23 +1,26 @@
-.section-hero {
-  position: relative;
-  overflow-x: hidden;
+.section-program {
+  display: none;
 }
 
-.section-hero__container {
-  // overflow: hidden;
-  position: relative;
-  padding-top: 110px;
+.section-hero {
+  padding-top: 40px;
   padding-bottom: 255px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 158px;
+    padding-top: 58px;
     padding-bottom: 93px;
   }
 
   @media screen and (min-width: 1280px) {
-    padding-top: 229px;
+    padding-top: 109px;
     padding-bottom: 145px;
   }
+
+  overflow-x: hidden;
+}
+
+.section-hero__container {
+  position: relative;
 }
 
 .section-hero__title {
@@ -38,7 +41,7 @@
   @media screen and (min-width: 1280px) {
     margin-bottom: 24px;
     font-size: 58px;
-    line-height: 1, 293;
+    line-height: 1.3;
     letter-spacing: 0.03em;
   }
 }
@@ -126,7 +129,7 @@
 
 .section-hero__picture-thumb {
   position: absolute;
-  top: 394px;
+  top: 285px;
   left: 50%;
   transform: translateX(-50%);
   display: block;
@@ -137,7 +140,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: 171px;
+    top: 13px;
     left: 374px;
     transform: translateX(0);
     width: 375px;
@@ -145,8 +148,8 @@
   }
 
   @media screen and (min-width: 1280px) {
-    top: 149px;
-    left: 630px;
+    top: -80px;
+    left: 670px;
     width: 842px;
     height: 718px;
   }
