@@ -1,13 +1,20 @@
 <section class="reviews section section--reviews">
-  <div class="container">
+  <div class="container reviews__container">
     <h2 class="reviews__title">Отзывы выпускников</h2>
     <div class="reviews__wrapper-list">
       <ul class="reviews__list">
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/alina.jpg" alt="photo" />
-            <a class="reviews__link">
-              <svg class="reviews__svg" width="30" height="16">
+            <div class="review__image-thumb">
+              <img class="reviews__img" src="./images/reviews/alina.jpg" alt="photo" width="90" />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="reviews__svg" width="30" height="16" aria-label="иконка linkedin">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -30,8 +37,15 @@
         </li>
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/bogdana.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img class="reviews__img" src="./images/reviews/bogdana.jpg" alt="photo" width="90" />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -55,8 +69,15 @@
         </li>
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/diana.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img class="reviews__img" src="./images/reviews/diana.jpg" alt="photo" width="90" />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -80,8 +101,21 @@
         </li>
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/karolina.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img
+                class="reviews__img"
+                src="./images/reviews/karolina.jpg"
+                alt="photo"
+                width="90"
+              />
+            </div>
+
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -105,8 +139,15 @@
         </li>
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/lida.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img class="reviews__img" src="./images/reviews/lida.jpg" alt="photo" width="90" />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -130,8 +171,20 @@
         </li>
         <li class="reviews__item" style="opacity: 1; position: relative">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/tonyabig.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img
+                class="reviews__img"
+                src="./images/reviews/tonyabig.jpg"
+                alt="photo"
+                width="90"
+              />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -155,8 +208,15 @@
         </li>
         <li class="reviews__item is-close">
           <div class="reviews__wrapper-img">
-            <img class="reviews__img" src="./images/reviews/vika.jpg" alt="photo" />
-            <a class="reviews__link">
+            <div class="review__image-thumb">
+              <img class="reviews__img" src="./images/reviews/vika.jpg" alt="photo" width="90" />
+            </div>
+            <a
+              class="reviews__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg class="reviews__svg" width="30" height="16">
                 <use href="./images/reviews/reviews-sprite.svg#icon-linkedin"></use>
               </svg>
@@ -183,43 +243,57 @@
     <div class="preview">
       <ul class="preview__list">
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(0)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/alina.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(0)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(1)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/bogdana.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(1)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(2)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/diana.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(2)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(3)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/karolina.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(3)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(4)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/lida.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(4)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(5)">
+          <button class="preview__wrapper" type="button">
             <img
-              class="preview__img preview__img--curentlinck"
+              class="preview__img preview__img--curentlink"
               src="./images/reviews/tonyabig.jpg"
               alt="photo"
             />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(5)"> -->
+          <!-- </div> -->
         </li>
         <li class="preview__item">
-          <div class="preview__wrapper" onclick="previews(6)">
+          <button class="preview__wrapper" type="button">
             <img class="preview__img" src="./images/reviews/vika.jpg" alt="photo" />
-          </div>
+          </button>
+          <!-- <div class="preview__wrapper" onclick="previews(6)"> -->
+          <!-- </div> -->
         </li>
       </ul>
     </div>
