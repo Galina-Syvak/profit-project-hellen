@@ -50,10 +50,9 @@
     background-color: var(--accent-color);
   }
 
-  &:hover .how-we-do__icon,   /***/
+  &:hover .how-we-do__icon,
   &:focus .how-we-do__icon {
-    /**/
-    fill: currentColor; /***/
+    fill: var(--secondary-txt-color);
   }
 
   &:hover .how-we-do__text,
