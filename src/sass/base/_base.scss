@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -34,6 +35,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  padding-top: 70px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
+}
+
+// *:focus {
+//   outline-style: dotted;
+// }
 
 .visually-hidden {
   position: absolute;

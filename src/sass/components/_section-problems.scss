@@ -1,6 +1,6 @@
 .problems {
   position: relative;
-  padding-top: 50px;
+
   background-image: linear-gradient(
     to bottom,
     var(--secondary-bg-color) 79%,
@@ -49,6 +49,18 @@
   color: var(--accent-color);
 }
 
+.icon-problems {
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
+
+  position: absolute;
+  top: 109px;
+  right: 0;
+
+  z-index: 0;
+}
+
 .problems__wrapper {
   padding: 20px 30px;
 
@@ -61,6 +73,7 @@
 
   @media screen and (min-width: 1280px) {
     padding: 70px 112px 62px 114px;
+    position: relative;
   }
 }
 

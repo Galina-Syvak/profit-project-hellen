@@ -1,8 +1,3 @@
-.how-we-do {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .how-we-do__title {
   margin-bottom: 30px;
 
@@ -25,7 +20,7 @@
 }
 
 .how-we-do__list {
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,9 +50,10 @@
     background-color: var(--accent-color);
   }
 
-  &:hover .how-we-do__icon,
+  &:hover .how-we-do__icon,   /***/
   &:focus .how-we-do__icon {
-    fill: currentColor;
+    /**/
+    fill: currentColor; /***/
   }
 
   &:hover .how-we-do__text,
@@ -98,6 +94,8 @@
 .how-we-do__icon {
   margin-bottom: 20px;
   fill: var(--accent-color);
+
+  transition: fill var(--delay) var(--time-function);
 
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;

@@ -22,13 +22,6 @@
   --main-font-family: sans-serif;
 
   /* Параметры для использования трансфомации */
-  --delay: 1500ms;
+  --delay: 250ms;
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* Динамічні змінні для @media */
-  --mobile: 320px;
-  --tablet_-1: 767px;
-  --tablet: 768px;
-  --desktop_-1: 1279px;
-  --desktop: 1280px;
 }
