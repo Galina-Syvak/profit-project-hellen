@@ -1,5 +1,6 @@
 .benefits {
   position: relative;
+  margin-top: -1px;
 
   background-image: linear-gradient(
     to bottom,
@@ -61,6 +62,8 @@
 }
 
 .benefits__wrapper {
+  position: relative;
+  z-index: 5;
   padding: 20px 30px;
 
   background-color: var(--third-bg-color);

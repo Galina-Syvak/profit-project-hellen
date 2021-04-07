@@ -45,6 +45,7 @@
   &::after {
     content: '';
     position: absolute;
+    z-index: 2;
     top: 560px;
     right: 790px;
     display: none;
@@ -175,6 +176,7 @@
   &:last-child::after {
     content: '';
     position: absolute;
+    z-index: 2;
     top: 60%;
     left: 50%;
     display: block;
