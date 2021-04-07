@@ -83,9 +83,9 @@
   }
 }
 
-// .reviews__item.is-close {
-//   display: none;
-// }
+.reviews__item.is-close {
+  display: none;
+}
 
 .reviews__wrapper-img {
   display: flex;
@@ -243,9 +243,13 @@
   cursor: pointer;
   overflow: hidden;
 
-  &:hover,
-  :focus {
-    border: 2px dotted transparent;
+  // &:hover,
+  // &:focus {
+  //   border: 2px dotted transparent;
+  // }
+  &:hover, &:focus {
+    border-radius: 50%;
+    border: 1px solid var(--accent-color);
   }
 }
 
