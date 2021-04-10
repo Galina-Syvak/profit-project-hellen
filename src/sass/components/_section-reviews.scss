@@ -8,7 +8,8 @@
 }
 
 .reviews__container {
-  // position: relative;
+  position: relative;
+  padding-bottom: 54px;
 }
 
 .reviews__title {
@@ -57,32 +58,6 @@
   }
 }
 
-// .reviews__list {
-//   position: relative;
-//   display: flex;
-//   flex-direction: row;
-//   overflow: hidden;
-// }
-
-// .reviews__item {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   flex-shrink: 0;
-//   flex-basis: calc(100%);
-
-//   @media screen and (min-width: 768px) {
-//     flex-direction: row;
-//     justify-content: flex-start;
-//     align-items: flex-start;
-//     width: 688px;
-//   }
-
-//   @media screen and (min-width: 1280px) {
-//     width: 1090px;
-//   }
-// }
-
 .reviews__thumb {
   display: flex;
   flex-direction: column;
@@ -101,10 +76,6 @@
     width: 1090px;
   }
 }
-
-// .reviews__item.is-close {
-//   display: none;
-// }
 
 .reviews__wrapper-img {
   display: flex;
@@ -221,51 +192,17 @@
   text-decoration: underline;
 }
 
-// .preview {
-//   // position: relative;
-//   margin: 0 auto;
-//   width: 182px;
-//   height: 58px;
-//   // overflow: hidden;
-
-//   @media screen and (min-width: 768px) {
-//     width: 558px;
-//     // overflow: visible;
-//   }
-// }
-
-// .preview__list {
-//   display: flex;
-//   justify-content: space-between;
-// }
-
-// .preview__item {
-//   &:not(:last-child) {
-//     margin-right: 10px;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     &:not(:last-child) {
-//       margin-right: 30px;
-//     }
-//   }
-// }
-
 .preview__wrapper {
   display: block;
   padding: 0;
-  width: 54px;
+  width: 54px !important;
   height: 54px;
   color: transparent;
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  overflow: hidden;
+  // overflow: hidden;
 
-  // &:hover,
-  // &:focus {
-  //   border: 2px dotted transparent;
-  // }
   &:hover,
   &:focus {
     border-radius: 50%;
@@ -274,136 +211,155 @@
 }
 
 .preview__img {
-  width: 100%;
+  // width: 100%;
+  height: 100%;
 }
 
-// .reviews__btn-right,
-// .reviews__btn-left {
-//   position: absolute;
-//   top: 0;
+.slick-slider {
+  position: unset;
+}
 
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0px);
 
-//   padding: 0;
-//   width: 25px;
-//   height: 15px;
+  display: flex;
+  flex-direction: row;
 
-//   cursor: pointer;
-//   border: none;
-//   background-color: transparent;
-// }
+  @media screen and (max-width: 767px) {
+    width: 310px;
+    overflow-x: hidden;
+  }
 
-// .reviews__btn-left {
-//   top: 100%;
-//   left: 0;
-
-//   transform: translate(20px, calc(-1 * 50% - 29px));
-
-//   @media screen and (min-width: 768px) {
-//     bottom: 0;
-//     transform: translate(calc(40px - 50%), -253px);
-//   }
-
-//   @media screen and (min-width: 1280px) {
-//     transform: translate(calc(80px - 50%), -291px);
-//   }
-
-//   @media screen and (min-width: 1680px) {
-//     transform: translate(100px, -291px);
-//   }
-// }
-
-// .reviews__btn-right {
-//   top: 100%;
-//   right: 0;
-
-//   transform: translate(-20px, calc(-1 * 50% - 29px));
-
-//   @media screen and (min-width: 768px) {
-//     bottom: 0;
-//     transform: translate(calc(-40px + 50%), -253px);
-//   }
-
-//   @media screen and (min-width: 1280px) {
-//     transform: translate(calc(-80px + 50%), -291px);
-//   }
-
-//   @media screen and (min-width: 1680px) {
-//     transform: translate(-100px, -291px);
-//   }
-// }
-
-// .slick-list {
-//   width: 182px;
-// }
-
-.reviews__item.slick-current.slick-active {
-  @media screen and(main-width:768px) {
-    display: flex;
+  @media screen and (max-width: 479px) {
+    width: 182px;
+    overflow-x: scroll;
   }
 }
-// .preview__wrapper {
-//   margin-left: 10px;
-// }
-// .preview__item.slick-slide.slick-current.slick-active.slick-center {
-//   width: 54px;
-// }
+
+.slick-dots > li {
+  &:not(:first-child) {
+    margin-left: 10px;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 30px;
+    }
+  }
+  width: 54px;
+  height: 54px;
+}
+
+.slick-dots button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 54px;
+  height: 54px;
+  color: transparent;
+  border-radius: 50%;
+  border: none;
+  background-size: contain;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 2px transparent;
+  }
+}
+
+#slick-slide-control00 {
+  @include backGroundImage2x('/images/reviews/alina-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/alina-54.jpg');
+}
+
+#slick-slide-control01 {
+  @include backGroundImage2x('/images/reviews/bogdana-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/bogdana-54.jpg');
+}
+
+#slick-slide-control02 {
+  @include backGroundImage2x('/images/reviews/diana-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/diana-54.jpg');
+}
+
+#slick-slide-control03 {
+  @include backGroundImage2x('/images/reviews/karolina-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/karolina-54.jpg');
+}
+
+#slick-slide-control04 {
+  @include backGroundImage2x('/images/reviews/lida-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/lida-54.jpg');
+}
+
+#slick-slide-control05 {
+  @include backGroundImage2x('/images/reviews/tonya-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/tonya-54.jpg');
+}
+
+#slick-slide-control06 {
+  @include backGroundImage2x('/images/reviews/vika-54@2x.jpg');
+  @include backGroundImage1x('/images/reviews/vika-54.jpg');
+}
 
 .slick-arrow {
   position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-
-  // @media screen and (min-width: 768px) {
-  //   transform: translateY(calc(-1 * 214px + 50%));
-  // }
-
-  // @media screen and (min-width: 1280px) {
-  //   transform: translateY(calc(-1 * 252px + 50%));
-  // }
-
-  z-index: 51;
+  bottom: 0;
+  // z-index: 3;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
+  padding: 0;
   width: 25px;
   height: 15px;
-  color: transparent;
+  font-size: 0;
   background-color: transparent;
+  background-size: 25px 15px;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .slick-prev {
   left: 0;
-  background-image: url('/images/reviews/arrow-left.svg');
+
+  transform: translate(20px, calc(-27px + 50%));
 
   @media screen and (min-width: 768px) {
-    transform: translate(-50%, calc(-1 * 214px + 50%));
+    transform: translate(100%, calc(-240px + 50%));
   }
 
   @media screen and (min-width: 1280px) {
-    transform: translateY(calc(-1 * 252px + 50%));
+    transform: translate(60px, calc(-279px + 50%));
   }
+
+  @media screen and (min-width: 1680px) {
+    transform: translate(calc(60px + 40px), calc(-279px + 50%));
+  }
+
+  background-image: url('/images/reviews/arrow-left.svg');
 }
 
 .slick-next {
   right: 0;
-  background-image: url('/images/reviews/Arrow-right.svg');
+  transform: translate(-20px, calc(-27px + 50%));
 
   @media screen and (min-width: 768px) {
-    transform: translate(50%, calc(-1 * 214px + 50%));
+    transform: translate(-100%, calc(-240px + 50%));
   }
 
   @media screen and (min-width: 1280px) {
-    transform: translateY(calc(-1 * 252px + 50%));
+    transform: translate(-60px, calc(-279px + 50%));
   }
-}
 
-// .slick-list.draggable {
-//   overflow-x: hidden;
-// }
+  @media screen and (min-width: 1680px) {
+    transform: translate(calc(-60px - 40px), calc(-279px + 50%));
+  }
+
+  background-image: url('/images/reviews/arrow-right.svg');
+}
