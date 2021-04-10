@@ -261,12 +261,13 @@
   color: transparent;
   border-radius: 50%;
   border: none;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    border: 2px transparent;
+    border: 3px solid transparent;
   }
 }
 
