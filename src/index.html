@@ -78,43 +78,17 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script type="text/javascript">
-      $(document).ready(function () {
-        $('.reviews__list').slick();
-      });
-    </script> -->
     <script type="text/javascript">
-      $(document).ready(function () {
-        $('.reviews__list').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.preview__list',
-        });
-        $('.preview__list').slick({
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          asNavFor: '.reviews__list',
-          dots: false,
-          centerMode: true,
-          focusOnSelect: true,
-        });
-      });
-    </script>
-
-    <!-- <script type="text/javascript">
       $(document).ready(function () {
         $('.reviews__list').slick({
           dots: true,
           infinite: true,
-          speed: 300,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          arrows: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear',
         });
       });
-    </script> -->
+    </script>
 
     <script src="./index.js"></script>
   </body>
